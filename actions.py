@@ -37,3 +37,6 @@ def check_hand(hand):
     for i in hand:
         total += i
     return total
+
+    # NB: alternate way to sum the cards in hand
+    # return sum(hand)
